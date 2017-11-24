@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Vision Test</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_l">l</string>
 </resources>
