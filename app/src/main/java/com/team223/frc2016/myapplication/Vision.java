@@ -156,7 +156,7 @@ public class Vision extends AppCompatActivity
 					try
 					{
 						//sClient.calcData(cvCamera.getImageBuffer());
-						sClient.sendData(CVMath.calcImage(cvCamera.getImageBuffer()).offCenter);
+						sClient.sendData(CVMath.calcImage(cvCamera.getImageBuffer(),false).getOffCenter());
 						Thread.sleep(100);
 					}
 					catch (InterruptedException e)
